@@ -1,0 +1,21 @@
+
+
+/* ---------------------------------------   Bootstrap CSS --------------------------------------------------------------------- */
+
+.width-constraint {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.test {
+    border: 1px solid black;
+}
+.nav-item {
+    list-style-type: none;
+}
+.nav-item-wrapper {
+    display: inline-block;
+}
+.profile-pic {
+    width: 200px;
+    height: 200px;
+}
