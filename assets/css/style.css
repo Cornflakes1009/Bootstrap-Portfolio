@@ -1,21 +1,69 @@
 
 
 /* ---------------------------------------   Bootstrap CSS --------------------------------------------------------------------- */
-
+body {
+    background-image: url("../images/concrete_seamless.png");
+}
+header {
+    background-color: white;
+    height: 110px;
+    margin-bottom: 30px;
+}
+h1 {
+    background-color: #4aaaa5;
+    color: white;
+    height: 102px;
+    font-size: 40px;
+    line-height: 102px;
+}
 .width-constraint {
     max-width: 960px;
     margin: 0 auto;
 }
-.test {
-    border: 1px solid black;
+a {
+    text-decoration: none;
+    color: inherit;
+}
+h2 {
+    color: #4aaaa5;
+    margin-top: 10px;
+    font-size: 38px;
+}
+h3 {
+    color: #4aaaa5;
+    margin-top: 10px;
+    font-size: 28px;
+    text-align: center;
 }
 .nav-item {
     list-style-type: none;
+    padding: 0 20px;
+    color: #9f9c9c;
+}
+.nav-item-divider-border {
+    border-right: 1px solid #e1d8d8;
 }
 .nav-item-wrapper {
     display: inline-block;
+    float: right;
+    line-height: 110px;
 }
 .profile-pic {
-    width: 200px;
-    height: 200px;
+    width: 240px;
+    height: 320px;
+}
+p {
+    color: #605f5f;
+}
+.background-style {
+    background-color: white;
+}
+aside {
+    height: 170px;
+    width: 270px;
+    padding: 10px 20px;
+}
+.connection-icons {
+    text-align: center;
+    
 }
