@@ -16,10 +16,6 @@ h1 {
     font-size: 40px;
     line-height: 102px;
 }
-.width-constraint {
-    max-width: 960px;
-    margin: 0 auto;
-}
 a {
     text-decoration: none;
     color: inherit;
@@ -60,7 +56,7 @@ p {
 }
 aside {
     height: 170px;
-    width: 270px;
+    
     padding: 10px 20px;
 }
 .connection-icons {
