@@ -1,20 +1,21 @@
 
 
-/* ---------------------------------------   Bootstrap CSS --------------------------------------------------------------------- */
+/* ------------Harold---------------------------   Bootstrap CSS ---------------------------------Harold------------------------------------ */
 body {
-    background-image: url("../images/concrete_seamless.png");
+    background-image: url("../images/old_moon.png");
 }
 header {
     background-color: white;
     height: 110px;
     margin-bottom: 30px;
+    border-bottom: 1px solid lightgray;
 }
-h1 {
+.name-h1-styling {
     background-color: #4aaaa5;
     color: white;
-    height: 102px;
+    height: 110px;
     font-size: 40px;
-    line-height: 102px;
+    line-height: 110px;
 }
 a {
     text-decoration: none;
@@ -24,12 +25,6 @@ h2 {
     color: #4aaaa5;
     margin-top: 10px;
     font-size: 38px;
-}
-h3 {
-    color: #4aaaa5;
-    margin-top: 10px;
-    font-size: 28px;
-    text-align: center;
 }
 .nav-item {
     list-style-type: none;
@@ -47,19 +42,31 @@ h3 {
 .profile-pic {
     width: 240px;
     height: 320px;
+    float: left;
 }
 p {
     color: #605f5f;
 }
 .background-style {
     background-color: white;
+    border: 1px solid lightgray;
 }
-aside {
-    height: 170px;
-    
-    padding: 10px 20px;
+.connection-pane {
+    height: 225px;
 }
-.connection-icons {
+.connection-content {
     text-align: center;
-    
+}
+hr {
+    height: 2px;
+    background-color: #9e9c9c;
+    opacity: 0.25; 
+}
+.footer {
+    background-color: #666666;
+    border-top: 7px solid #4aaaa5;
+    height: 80px;
+    color: white;
+    position: absolute;
+    bottom: 0;
 }

@@ -13,11 +13,13 @@
 
 <body>
     <header class="container-fluid test">
-        <nav class="row test navbar">
-            <h1 class="name col-md-5 col-sm-12 text-sm-center col-xs-12 align-self-start">
-                <a href="index.html">Harold Davidson</a>
+        <nav class="row">
+            <h1 class="col-md-4 col-sm-12 text-sm-center align-self-start">
+                <div class="name-h1-styling">
+                    <a href="index.html">Harold Davidson</a>
+                </div>
             </h1>
-            <div class="col-md-7 col-sm-12 text-sm-center col-xs-12  text-right">
+            <div class="col-md-8 col-sm-12 text-sm-center text-right">
                 <div class="nav-item-wrapper row">
                     <a class="nav-item nav-item-divider-border" href="index.html">About</a>
                     <a class="nav-item nav-item-divider-border" href="portfolio.html">Portfolio</a>
@@ -28,62 +30,70 @@
     </header>
     <div class="container-fluid">
         <div class="row">
-            <section class="col-md-8 col-sm-12 background-style">
-                <h2>About Me</h2>
-                <hr>
-                <div>
-                    <img class="profile-pic" src="assets/images/portfolio-pic.jpg" alt="Photo of Me with Manila Bay at Sunset">
-                    <p>
-                        <strong>My early life: </strong>I was born in the late 1980's in a small country hospital in central Illinois.
-                    I grew up in a town where everyone was a farmer or factory worker. We didn't have any programmers
-                    or businesses that even needed them. My school had two technology courses, Office Applications and
-                    Visual Basic. I worked retail for 7 years after high scool while attending a local community college
-                    for a different major every semester. I knew that wasn't what I wanted to do and I had always liked
-                    computers and video games. Then I went on a hunt for a career change.</p>
-                    <p>
-                        <strong>My journey into IT: </strong>In 2014, I got on at a dental, medical, and veterinary sales company
-                    as a Help Desk Tier I. Over the next 18 months I moved through the ranks and eventually became a
-                    Senior Specialist with a specialty is procedure and security. I worked with the security and development
-                    teams to implement policies and procedures, but it still wasn't enough. I wanted to make my own apps.
-                    I started with free online courses for iOS development and I soon realized that I loved it, but I
-                    felt limited to only making apps for the iPhone and iPad. A friend of mine had shown me web development
-                    and how he could also make apps for iOS and Android. It was perfect! I could do so much all at once.
-                    After that I dove into learning web development, but I found that the over saturation of information
-                    was disorienting. I saw an ad for KU's Coding Bootcamp and I knew I had to take it. I got into the
-                    bootcamp and I finally moved out of my tiny town in Illinois to an apartment in Kansas City, MO where
-                    I live alone and spend all day in front of my computer either working from, doing classwork, or watching
-                    Netflix if time allows.</p>
-                </div>
+            <section class="col-md-8 col-sm-12 ">
+                <div class="background-style card">
+                    <h2 class="card-title ml-4">About Me</h2>
+                    <hr class="mx-4">
+                    <div class="card-body">
+                        <img class="profile-pic mr-4 mb-2" src="assets/images/portfolio-pic.jpg" alt="Photo of Me with Manila Bay at Sunset">
+                        <p>
+                            <strong>My early life: </strong>I was born in the late 1980's in a small country hospital in central
+                            Illinois. I grew up in a town where everyone was a farmer or factory worker. We didn't have any
+                            programmers or businesses that even needed them. My school had two technology courses, Office
+                            Applications and Visual Basic. I worked retail for 7 years after high scool while attending a
+                            local community college for a different major every semester. I knew that wasn't what I wanted
+                            to do and I had always liked computers and video games. Then I went on a hunt for a career change.</p>
+                        <p>
+                            <strong>My journey into IT: </strong>In 2014, I got on at a dental, medical, and veterinary sales company
+                            as a Help Desk Tier I. Over the next 18 months I moved through the ranks and eventually became
+                            a Senior Specialist with a specialty is procedure and security. I worked with the security and
+                            development teams to implement policies and procedures, but it still wasn't enough. I wanted
+                            to make my own apps. I started with free online courses for iOS development and I soon realized
+                            that I loved it, but I felt limited to only making apps for the iPhone and iPad. A friend of
+                            mine had shown me web development and how he could also make apps for iOS and Android. It was
+                            perfect! I could do so much all at once. After that I dove into learning web development, but
+                            I found that the over saturation of information was disorienting. I saw an ad for KU's Coding
+                            Bootcamp and I knew I had to take it. I got into the bootcamp and I finally moved out of my tiny
+                            town in Illinois to an apartment in Kansas City, MO where I live alone and spend all day in front
+                            of my computer either working from, doing classwork, or watching Netflix if time allows.</p>
+                    </div>
             </section>
-            
-           <aside class="col-md-4 col-sm-12 background-style">
-                <h3>Connect with Me</h3>
-                <hr>
-                <div class="connection-icons">
-                    <a class="" href="https://github.com/Cornflakes1009" target="_blank">
-                        <img src="assets/images/github-icon.png" alt="GitHub Logo">
-                    </a>
-                    <a class="" href="https://www.linkedin.com/in/harold-davidson/" target="_blank">
-                        <img src="assets/images/linkedin-icon.png" alt="LinkedIn Logo">
-                    </a>
-                    <a class="" href="https://stackoverflow.com/users/8809817/harold-davidson" target="_blank">
-                        <img src="assets/images/stackoverflow-icon.png" alt="Stack Overflow Logo">
-                    </a>
+
+            <aside class="col-md-4 col-sm-12">
+                <div class="background-style connection-pane connection-content">
+                    <h2 class="">Connect with Me</h3>
+                        <hr class="mx-4">
+                        <div class="connection-icons">
+                            <a class="" href="https://github.com/Cornflakes1009" target="_blank">
+                                <img src="assets/images/github-icon.png" alt="GitHub Logo">
+                            </a>
+                            <a class="" href="https://www.linkedin.com/in/harold-davidson/" target="_blank">
+                                <img src="assets/images/linkedin-icon.png" alt="LinkedIn Logo">
+                            </a>
+                            <a class="" href="https://stackoverflow.com/users/8809817/harold-davidson" target="_blank">
+                                <img src="assets/images/stackoverflow-icon.png" alt="Stack Overflow Logo">
+                            </a>
+                        </div>
                 </div>
             </aside>
-        </div>
+            </div>
 
-    </div>
-    <footer>
-        <div></div>
-        <div>Copyright &#64; 2018 Harold Davidson</div>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+        </div>
+        <footer class="footer container-fluid mt-5">
+            <div class="row no-gutters">
+                <div class="col-md-12 col-sm-12">
+                    <div class="mt-4">
+                        <div class="text-center ">Copyright &#64; 2018 Harold Davidson</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
