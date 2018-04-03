@@ -65,7 +65,8 @@ hr {
     height: 80px;
     color: white;
     position: absolute;
-    bottom: -300px;
+    bottom: -500px; 
+    /* bottom needs changed when adding new rows of images - add another 200px */
     z-index: 100;
     margin-top: 200px;
 }
